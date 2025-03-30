@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-raw-image"
+description = "Comfyui-raw-image provides the ability to load raw image files for ComfyUI"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["rawpy", "numpy", "pillow"]
+
+[project.optional-dependencies]
+dev = [
+    "uv",
+    "ruff",
+]
+
+[project.urls]
+Repository = "https://github.com/dimtion/comfyui-raw-image"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "dimtion"
+DisplayName = "ComfyUI-Raw-Image"
+Icon = ""
