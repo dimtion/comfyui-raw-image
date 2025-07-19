@@ -24,7 +24,7 @@ A custom node extension for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/dimtion/comfyui-raw-loader.git
+git clone https://github.com/dimtion/comfyui-raw-image.git
 ```
 
 2. Install the required dependencies:
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## Supported File Formats
 
-Supports all RAW formats handled by the rawpy library, including:
+Supports all RAW formats handled by the [rawpy library](https://www.libraw.org/supported-cameras), including:
 - Canon (CR2, CR3)
 - Nikon (NEF)
 - Sony (ARW)
